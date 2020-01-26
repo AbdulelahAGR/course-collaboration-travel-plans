@@ -27,6 +27,11 @@ body {
     justify-content: center;
 }
 
+.destination-container:hover div {
+    transform: rotate(0deg);
+    background: #ffffff2f;
+}
+
 .destination {
     background: #03a9f4;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
@@ -41,8 +46,9 @@ body {
 }
 
 .destination:hover h2 {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
     background: #ffffff2f;
+    color: beige;
 
 }
 
